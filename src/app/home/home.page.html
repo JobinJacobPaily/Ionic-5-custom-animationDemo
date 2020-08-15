@@ -13,8 +13,16 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
+ <!--  <div #sqaure id="container">
+    <strong>Ready to create an app?</strong>
+    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  </div> -->
+  <div #sqaure id="container1">
     <strong>Ready to create an app?</strong>
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
+  <ion-button (click) = "start()">start</ion-button>
+  <ion-button (click) = "stop()">SToP</ion-button>
+  <ion-button (click) = "second()">second</ion-button>
+
 </ion-content>
