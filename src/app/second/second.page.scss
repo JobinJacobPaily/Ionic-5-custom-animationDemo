@@ -1,0 +1,13 @@
+@keyframes cards{
+    0% {
+      opacity: 0%;
+      transform :translateX(100px);
+    }
+    50% {
+      opacity: 100%;
+      transform :translateX(0px);
+    }
+  }
+  ion-card{
+    animation: cards 500ms  calc(var(--animation-order)*100ms) both ease-in;
+  }
