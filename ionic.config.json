@@ -1,5 +1,7 @@
 {
   "name": "TestIonic5Animation",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

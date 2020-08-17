@@ -18,4 +18,8 @@ home()
 {
   this.router.navigate(['home']);
 }
+third()
+{
+  this.router.navigate(['third']);
+}
 }

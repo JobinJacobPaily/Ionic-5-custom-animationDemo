@@ -1,6 +1,7 @@
 <ion-header>
   <ion-toolbar>
-    <ion-button (click)='home()'><ion-icon name = "arrow-back" ></ion-icon></ion-button>
+    <ion-button [routerLink] ="['/home']"  routerDirection ='back'><ion-icon  name = "arrow-back" ></ion-icon></ion-button>
+    <ion-button slot="end" (click) = "third()">Third</ion-button>
     <ion-title>second</ion-title>
   </ion-toolbar>
 </ion-header>

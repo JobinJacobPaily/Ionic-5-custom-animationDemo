@@ -7,20 +7,33 @@
   
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#container1 strong {
+  font-size: 10px;
+  line-height: 5px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+#container1 p {
+  font-size: 8px;
+  line-height: 26px;
 
   color: #8c8c8c;
 
   margin: 0;
 }
 
-#container a {
+#container1 a {
   text-decoration: none;
+}
+
+#container1{
+  background-image: linear-gradient(to right, rgb(228, 162, 21),red);
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  text-align:center;
+  padding :25px;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 30%;
+  
 }

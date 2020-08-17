@@ -24,7 +24,7 @@ export class HomePage implements AfterViewInit{
    
     this.anim = this.animationController.create('animi'); 
     this.anim.addElement(this.square.nativeElement)
-    .duration(5000)
+    .duration(2000)
     .iterations(Infinity)
     .keyframes([
      { offset : 0 , transform:'translateY(0px)'},
@@ -33,6 +33,7 @@ export class HomePage implements AfterViewInit{
      { offset : .75 , transform:'translateY(100px) translateX(-100px)'},
      { offset : 1 , transform:'translateY(0px)'},
     ]);
+    this.anim.play();
    
   } 
   stop()
