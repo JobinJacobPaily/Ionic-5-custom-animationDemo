@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'third',
     loadChildren: () => import('./third/third.module').then( m => m.ThirdPageModule)
   },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
 ];
 
 @NgModule({

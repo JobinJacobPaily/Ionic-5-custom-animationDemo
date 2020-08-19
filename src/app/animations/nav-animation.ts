@@ -2,7 +2,7 @@ import{ AnimationController,Animation} from '@ionic/angular'
 
 
 
-export const enterAnimation = (baseEl :HTMLElement,opts?:any):Animation =>{
+export const enterAnimations = (baseEl :HTMLElement,opts?:any):Animation =>{
 
     console.log('baseEl :',baseEl);
     console.log('opts : ' ,opts);

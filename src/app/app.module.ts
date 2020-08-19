@@ -8,13 +8,16 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { enterAnimation } from './animations/nav-animation';
+import { enterAnimations } from './animations/nav-animation';
+import { one, two } from './animations/modal-animi';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot({
-    navAnimation:enterAnimation
+    navAnimation:enterAnimations,
+    modalEnter:one,
+    modalLeave:two
   }), AppRoutingModule],
   providers: [
     StatusBar,
