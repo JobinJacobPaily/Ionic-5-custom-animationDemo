@@ -1,4 +1,4 @@
-# Ionic-5-custom-nav-animationDemo
+# Ionic 5 custom Animation
 Customized Animation for Navigate from one page to another. <br>
 To run
 ---------------------------
